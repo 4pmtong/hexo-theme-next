@@ -126,8 +126,8 @@ scheme: Gemini
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-social:
-  GitHub: https://github.com/4pmtong || github
+# social:
+  # GitHub: https://github.com/4pmtong || github
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -143,7 +143,7 @@ social_icons:
   icons_only: false
   transition: false
   # Icon Mappings
-  GitHub: github
+  # GitHub: github
   # Twitter: twitter
   # 微博: weibo
 
@@ -297,7 +297,7 @@ highlight_theme: normal
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: true
+  enable: false
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
   host:
@@ -310,7 +310,7 @@ font:
   # Global font settings used on <body> element.
   global:
     external: true
-    family: Monda
+    family: Lato
     size:
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6).
@@ -330,13 +330,13 @@ font:
   # Fallback to `global` font settings.
   logo:
     external: true
-    family: Lobster Two
-    size: 24
+    family:
+    size:
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family: PT Mono
+    family:
     size:
 
 
@@ -364,8 +364,8 @@ baidu_analytics:c50e01fbf2086872cde6a90a2b4f8717
 
 # Disqus
 disqus:
-  enable: true
-  shortname: 4pmtong
+  enable: false
+  shortname:
   count: true
 
 # Hypercomments
