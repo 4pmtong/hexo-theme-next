@@ -220,7 +220,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: true
+  enable: false
   length: 150
 
 # Post meta display settings
@@ -317,7 +317,7 @@ font:
   # Fallback to `global` font settings.
   headings:
     external: true
-    family: Roboto Slab
+    family:
     size:
 
   # Font settings for posts.
@@ -357,7 +357,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics:c50e01fbf2086872cde6a90a2b4f8717
+baidu_analytics: c50e01fbf2086872cde6a90a2b4f8717
 
 # Duoshuo ShortName
 #duoshuo_shortname:
